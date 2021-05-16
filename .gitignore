@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/src/.vs/AspNetMicroservices/v16
+/src/Services/Catalog/Catalog.API/bin/Debug/net5.0
+/src/Services/Catalog/Catalog.API/obj
