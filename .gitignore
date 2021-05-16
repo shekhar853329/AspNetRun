@@ -10,3 +10,5 @@
 /src/obj/Docker
 /src/bin/Debug
 /src/obj/Debug
+/src/Services/Basket/Basket.API/bin/Debug/net5.0
+/src/Services/Basket/Basket.API/obj
