@@ -8,3 +8,5 @@
 /src/Services/Catalog/Catalog.API/obj
 *.v2
 /src/obj/Docker
+/src/bin/Debug
+/src/obj/Debug
