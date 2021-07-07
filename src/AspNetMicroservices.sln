@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Cat
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{86752D20-EFB2-4B42-B797-10FE0961D3EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{C41B89AB-3DB5-4814-925C-DF6B41E8918D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{C41B89AB-3DB5-4814-925C-DF6B41E8918D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{4E7CF6CB-987E-4C0D-B6C4-2D037AB72B4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{4E7CF6CB-987E-4C0D-B6C4-2D037AB72B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{3D398347-396B-4D72-9F0D-F95817546F4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,18 @@ Global
 		{4E7CF6CB-987E-4C0D-B6C4-2D037AB72B4E}.Release|x64.Build.0 = Release|Any CPU
 		{4E7CF6CB-987E-4C0D-B6C4-2D037AB72B4E}.Release|x86.ActiveCfg = Release|Any CPU
 		{4E7CF6CB-987E-4C0D-B6C4-2D037AB72B4E}.Release|x86.Build.0 = Release|Any CPU
+		{3D398347-396B-4D72-9F0D-F95817546F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D398347-396B-4D72-9F0D-F95817546F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D398347-396B-4D72-9F0D-F95817546F4A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3D398347-396B-4D72-9F0D-F95817546F4A}.Debug|x64.Build.0 = Debug|Any CPU
+		{3D398347-396B-4D72-9F0D-F95817546F4A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3D398347-396B-4D72-9F0D-F95817546F4A}.Debug|x86.Build.0 = Debug|Any CPU
+		{3D398347-396B-4D72-9F0D-F95817546F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D398347-396B-4D72-9F0D-F95817546F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D398347-396B-4D72-9F0D-F95817546F4A}.Release|x64.ActiveCfg = Release|Any CPU
+		{3D398347-396B-4D72-9F0D-F95817546F4A}.Release|x64.Build.0 = Release|Any CPU
+		{3D398347-396B-4D72-9F0D-F95817546F4A}.Release|x86.ActiveCfg = Release|Any CPU
+		{3D398347-396B-4D72-9F0D-F95817546F4A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
