@@ -15,3 +15,4 @@
 /src/.vs/AspNetMicroservices/config
 /src/Services/Discount/Discount.API/bin/Debug/net5.0
 /src/Services/Discount/Discount.API/obj
+/src/.vs/AspNetMicroservices

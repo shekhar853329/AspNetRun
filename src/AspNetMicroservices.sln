@@ -1,17 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.6.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{9F23BCAB-A9F1-4E91-853B-4073D15F33FD}"
-EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{86752D20-EFB2-4B42-B797-10FE0961D3EA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{C41B89AB-3DB5-4814-925C-DF6B41E8918D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{4E7CF6CB-987E-4C0D-B6C4-2D037AB72B4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{3D398347-396B-4D72-9F0D-F95817546F4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{3D398347-396B-4D72-9F0D-F95817546F4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,18 +33,6 @@ Global
 		{9F23BCAB-A9F1-4E91-853B-4073D15F33FD}.Release|x64.Build.0 = Release|Any CPU
 		{9F23BCAB-A9F1-4E91-853B-4073D15F33FD}.Release|x86.ActiveCfg = Release|Any CPU
 		{9F23BCAB-A9F1-4E91-853B-4073D15F33FD}.Release|x86.Build.0 = Release|Any CPU
-		{86752D20-EFB2-4B42-B797-10FE0961D3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{86752D20-EFB2-4B42-B797-10FE0961D3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{86752D20-EFB2-4B42-B797-10FE0961D3EA}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{86752D20-EFB2-4B42-B797-10FE0961D3EA}.Debug|x64.Build.0 = Debug|Any CPU
-		{86752D20-EFB2-4B42-B797-10FE0961D3EA}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{86752D20-EFB2-4B42-B797-10FE0961D3EA}.Debug|x86.Build.0 = Debug|Any CPU
-		{86752D20-EFB2-4B42-B797-10FE0961D3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{86752D20-EFB2-4B42-B797-10FE0961D3EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{86752D20-EFB2-4B42-B797-10FE0961D3EA}.Release|x64.ActiveCfg = Release|Any CPU
-		{86752D20-EFB2-4B42-B797-10FE0961D3EA}.Release|x64.Build.0 = Release|Any CPU
-		{86752D20-EFB2-4B42-B797-10FE0961D3EA}.Release|x86.ActiveCfg = Release|Any CPU
-		{86752D20-EFB2-4B42-B797-10FE0961D3EA}.Release|x86.Build.0 = Release|Any CPU
 		{C41B89AB-3DB5-4814-925C-DF6B41E8918D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C41B89AB-3DB5-4814-925C-DF6B41E8918D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C41B89AB-3DB5-4814-925C-DF6B41E8918D}.Debug|x64.ActiveCfg = Debug|Any CPU
