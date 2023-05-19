@@ -58,5 +58,9 @@ jobs:
       - name: Build
         run: dotnet build  ./src/Services/Discount/Discount.API/Discount.API.csproj --no-restore
       - name: Sonar  
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        shell: powershell
         run: |    
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
