@@ -56,5 +56,7 @@ jobs:
       - name: Build
         run: dotnet build  ./src/Services/Catalog/Catalog.API/Catalog.API.csproj --no-restore
       - name: Build
-        run: dotnet build  ./src/Services/Discount/Discount.API/Discount.API.csproj --no-restore    
+        run: dotnet build  ./src/Services/Discount/Discount.API/Discount.API.csproj --no-restore
+      - name: Sonar  
+        run: |    
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
