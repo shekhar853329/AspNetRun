@@ -1053,11 +1053,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SonarCloud\\AspNetRun\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
+      "projectUniqueName": "d:\\SonarCloud\\AspNetRun\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
       "projectName": "Discount.Grpc",
-      "projectPath": "D:\\SonarCloud\\AspNetRun\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
+      "projectPath": "d:\\SonarCloud\\AspNetRun\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
       "packagesPath": "C:\\Users\\z004e26x\\.nuget\\packages\\",
-      "outputPath": "D:\\SonarCloud\\AspNetRun\\src\\Services\\Discount\\Discount.Grpc\\obj\\",
+      "outputPath": "d:\\SonarCloud\\AspNetRun\\src\\Services\\Discount\\Discount.Grpc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1071,6 +1071,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1129,7 +1130,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
