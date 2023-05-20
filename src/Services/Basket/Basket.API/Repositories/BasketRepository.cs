@@ -37,6 +37,6 @@ namespace Basket.API.Repositories
         public async Task DeleteBasket(string userName)
         {
             await _redisCache.RemoveAsync(userName);
-        } 
+        } //Test
     } 
 }
